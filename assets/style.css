@@ -52,13 +52,16 @@ h1 {
     justify-content:center;
     font-size: 100px;
     color:#ffffff;
-    margin-top:100px;
+    margin-top:120px;
     opacity: 0.4;
 }
 
 figure {
-    display: flex;
+  display: flex;
   align-items: center;
   justify-content:space-around;
-    margin-top:100px;
+  margin-top: 60px;
+  border-radius: 40px;
+  background-size: contain;
 }
+
