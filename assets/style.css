@@ -71,6 +71,7 @@ h2 {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
+    image
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #5604da;
     color: #ffffff;
@@ -129,3 +130,16 @@ a {
 section {
     margin-top: 100px;
 }
+
+.resize {
+    width: 120px;
+    height: auto;
+   
+    transition: transform .2s;
+    
+}
+
+.resize:hover {
+    transform: scale(2);
+}
+
