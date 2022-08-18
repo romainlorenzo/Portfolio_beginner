@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     width: 100%;
     max-width: 1400px;
     display: block;
@@ -14,7 +14,7 @@ body{
     font-family: sans-serif;
 }
 
-.navbar{
+.navbar {
     width: 100%;
     position: fixed;
     top: 0;
@@ -26,7 +26,7 @@ body{
     background:solid;
 }
 
-.link-group{
+.link-group {
     list-style: none;
     display: flex;
 }
@@ -43,7 +43,7 @@ body{
     font-size: 30px;
 }
 
-.link a:hover, .link.active a{
+.link a:hover, .link.active a {
     opacity: 1;
 }
 
@@ -100,7 +100,6 @@ h4 {
     
 }
 
-
 p {
 
     text-align: center;
@@ -129,5 +128,4 @@ a {
 
 section {
     margin-top: 100px;
-
 }
